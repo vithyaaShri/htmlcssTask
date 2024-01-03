@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position:relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    margin: 50px;
+}
+.container .left-side{
+    position: relative;
+    background-color: #003147;
+    padding:40px;
+}
+.profile-text{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom:20px ;
+border-bottom: 1px solid rgba(255, 255, 255, 0.436);
+}
+
+.profile-text img{
+    position:relative;
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+    
+
+}
+
+.profile-text h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.profile-text span{
+    font-size: 0.5em;
+    font-weight: 300;
+}
+.icon1 {
+    box-sizing: border-box;
+      position: relative;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 5px solid #03a9f4;
+      border-radius: 100%;
+  }
+  
+  .icon1::after {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin: 1px 0 0 -6px;
+      display: block;
+      content: '';
+      border: 6px solid transparent;
+      border-top: 10px solid #03a9f4;
+      border-bottom: none;
+  }
+  
+  .title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+  }
+  .contact-info{
+    margin-top: 10px;
+  }
+.contact-info ul{
+    position: relative;
+    list-style: none;
+}
+.contact-info ul li{
+    margin-top: 10px;
+}
+.contact-info ul .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contact-info ul .text{
+    color: beige;
+    font-weight: 300;
+    font-size: 15px;
+}
+.contact-info-education .title{
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.contact-info-education li{
+    margin-bottom:15px;
+    letter-spacing: 1px;
+}
+.contact-info-education ul{
+    list-style: none;
+}
+.contact-info-education ul h4{
+    color:#03a9f4 ;
+    font-weight: 600;
+}
+.contact-info-education ul h5{
+    color: white;
+    font-weight: 300;
+}
+.contact-info-languages ul{
+list-style: none;
+}
+.contact-info-languages .percentage li{
+    margin-bottom:10px ;
+}
+.contact-info-languages .percentage{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.contact-info-languages .percentage #one{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background: #03a9f4;
+    margin-bottom: 10px;
+}
+.container .right-side{
+    position: relative;
+    background-color: white;
+    padding:40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0px;
+}
+.about h3{
+    color: #003147;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.about p{
+    color: #333;
+}
+.about .box{
+    display:flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+.about .year_company{
+    min-width: 150px;
+}
+.about .year_company h5{
+    text-transform: uppercase;
+    color:#848c;
+}
+.about .box .text h4{
+    text-transform: uppercase;
+    color: #03a9f4;
+    font-size: 16px;
+
+}
+.about .box .skill-image{
+    display: inline;
+    margin-bottom: 20px;
+}
+.about .box .skill-image .image1{
+        border-image: round;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        margin: 20px 20px; 
+}
+.about ul{
+    margin: auto 20px;
+    padding:10px;
+}
+.about ul li{
+    margin:10px auto;
+   
+}
+.about-interest .box ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.about-interest .box ul li{
+    float:left;
+    margin:auto 20px;
+    size: 16px;
+}
+.about-achieve p{
+margin: 10px;
+padding: 10px;
+}
